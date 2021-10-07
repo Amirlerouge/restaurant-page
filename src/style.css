@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
+
+*{
+  font-family: 'Roboto', sans-serif;
+  background-image: url('images/Waffles.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    
+  
+
+  }
+
+
+  .grid-item {
+    padding: 10px 15px 10px 15px;
+    /* border-style: double; */
+    color: white;
+    /* border-block-color: red; */
+    /* padding: 10px; */
+    /* border: currentColor; */
+    border-style: solid;
+    /* border-block-color: red; */
+    /* border-spacing: 20px; */
+    /* background-color: black; */
+    background: black;
+    border-radius: 3px;
+    margin: auto;
+  }
+
+  div#content {
+    background: black;
+    /* margin: 70px; */
+    position: relative;
+    max-width: 810px;
+    border-radius: 3px;
+    padding: 60px;
+    margin: 15px 40px 15px 40px;
+  }
+
+
+  div#inner {
+    background-color: white;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 5px;
+    border-color: rebeccapurple;
+    margin: auto;
+    padding: 70px 60px 50px 60px;
+
+  }
+
+h1{
+    color: white;
+    text-align: center;
+
+
+}
