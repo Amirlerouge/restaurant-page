@@ -1,22 +1,27 @@
 import './style.css';
+window.onload = function(){
+
+
+//let links = document.getElementsByID("link")
+//alert("link");
+
+//console.log(links);
+
+//links.onclick = function(event){
+  //let target = event.target;
+
+  //links.target.classList.add('highlight');
+
+  function color(){
+    console.log("we are here");
+  }
+  const links = document.getElementsByClassName("link")
+  links.addEventListener("click", color )
+
+
+
+}
 
 
 
 
-    window.addEventListener('DOMContentLoaded', (event) => {
-        
-        let sidemenu = document.getElementsByClassName("glass");
-
-        sidemenu.onclick = function(event) {
-            let target = event.target; // where was the click?
-          
-            if (target.tagName == 'link1'){
-                alert("target"); // highlight it
-            } return; // not on TD? Then we're not interested
-          
-            alert(target.tagName); // highlight it
-
-          };
-
-
-    });
