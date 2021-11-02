@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
 
-h1,h2,p{
+h1,h2,h3,p{
   font-family: 'Roboto', sans-serif;
   background-attachment: fixed;
   background-size: cover;
@@ -10,7 +10,6 @@ h1,h2,p{
 
 
 }
-
 body{
   margin: 0;
 }
@@ -97,17 +96,6 @@ content:url(/home/amir/restaurant/src/images/home.svg);
 
 
 
-.link4{
-
-  content:url(/home/amir/restaurant/src/images/award.svg);
-  background-repeat: no-repeat;
-  
-
-
-}
-
-
-
 .dashboard{
   flex: 1;
   display: flex;
@@ -117,7 +105,11 @@ content:url(/home/amir/restaurant/src/images/home.svg);
   text-align: center;
   background: linear-gradient(to right bottom, rgba(255,255,255, 0.9), rgba(255,255,255,0.2));
   border-radius: 2rem;
-  margin: 20px;
+  margin: 20 px;
+ 
+
+  
+
 
 }
 
