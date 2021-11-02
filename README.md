@@ -1,7 +1,6 @@
 # restaurant-page
 
-https://img.shields.io/github/last-commit/Amirlerouge/restaurant-page
-
+![GitHub last commit](https://img.shields.io/github/last-commit/Amirlerouge/restaurant-page)
 
 
 Using Vanilla JS to generate entire contents of a website.
