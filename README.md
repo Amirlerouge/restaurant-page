@@ -14,4 +14,10 @@ Trying out the trendy glass effect CSS looks. ⚫ and 🟨 are always cool to pl
 
 Use the package.json to download the dependencies of the project.
 
+Or just 🖱️ click on -> https://amirlerouge.github.io/restaurant-page/
+
+
+### Future Improvements
+
+The code it not that pretty, would like to utilize ES6 modules.
 
